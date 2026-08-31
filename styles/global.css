@@ -66,6 +66,10 @@ a{
     text-decoration: none;
     color: inherit;
 }
+img{
+    max-width: 100%;
+    display: inline-block;
+}
 a:hover{
     background: linear-gradient(
         90deg,

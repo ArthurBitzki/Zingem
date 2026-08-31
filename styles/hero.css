@@ -1,4 +1,4 @@
-.hero{
+#hero{
     text-align: center;
 
     & img[src*="music"]{
@@ -20,7 +20,7 @@
     }
 }
 @media(width>=80em){
-    .hero{
+    #hero{
         background: url(../assets/images/fundo.svg) no-repeat bottom center/contain;
         padding-bottom: 15rem;
         & img[src*="music"]{
